@@ -1,0 +1,20 @@
+/* @tailwind base;
+
+@tailwind components;
+
+@tailwind utilities; */
+
+@import "../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+body{
+    padding: 20px;
+}
+h1{
+    color:pink;
+}
+.card.call-action{
+
+    & button{
+        display:inline-block;
+    }
+}
